@@ -1,27 +1,55 @@
-# AngularPokedex
+# Web Pokedex 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+Este é um projeto de Pokedex desenvolvido em Angular e estilizado com SCSS, que consome a PokeAPI para exibir informações detalhadas sobre todos os Pokemons da região de Kanto.
 
-## Development server
+## Visão Geral
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+A Pokedex é uma ferramenta essencial para qualquer Treinador Pokemon. Ela permite aos Treinadores obter informações abrangentes sobre diferentes Pokemon, incluindo seus tipos, habilidades e estatísticas. A Web Pokedex facilita a pesquisa e o acesso a esses dados valiosos.
 
-## Code scaffolding
+## Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Permite aos Treinadores pesquisar Pokemons pelo nome na barra de pesquisa.
+- Exibe informações detalhadas sobre os Pokemons, incluindo tipo, habilidades e estatísticas.
+- Ao clicar em um Pokemon você pode ver informações exclusivas sobre ele.
+- Classifica automaticamente os Pokemons em categorias, como "Grass", "Fire", "Wather" e muito mais.
+- Lista todos os Pokemons da região de Kanto.
 
-## Build
+## Links
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- [Repositório Remoto](https://github.com/CaioSiqueira01/angular-pokedex)
+- [Site](https://angular-pokedex-seven.vercel.app/)
 
-## Running unit tests
+## Construído com
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Angular - Um framework JavaScript para desenvolvimento web.
+- SCSS - Uma extensão do CSS para estilização.
+- PokeAPI - Uma API de código aberto que fornece informações sobre Pokemon.
 
-## Running end-to-end tests
+## Como executar
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Clone o repositório:
 
-## Further help
+   ```bash
+   git clone https://github.com/CaioSiqueira01/angular-pokedex.git
+   ```
+   
+2. Instale as dependências
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+   ```bash
+   npm install
+   ```
+3. Inicie a aplicação remotamente
+
+   ```bash
+   ng serve
+   ```
+
+4. Abra seu navegador e acesse http://localhost:4200/ para explorar a Pokedex.
+
+## Contribuições
+
+Contribuições são bem-vindas! Se você quiser melhorar ou adicionar recursos a esta Web Pokedex, sinta-se à vontade para enviar uma solicitação pull.
+
+## Autor
+### Caio Henrique
+- [GitHub](https://github.com/CaioSiqueira01) 
